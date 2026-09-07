@@ -52,7 +52,10 @@ Live at <https://neoeconomist.github.io>.
    and `CNAME` `www` → `neoeconomist.github.io`
 3. Settings → Pages → Custom domain, then tick **Enforce HTTPS**
 
-Nothing in the site itself changes.
+Then update the four absolute URLs in `index.html` (canonical, `og:url`,
+`og:image`, and the two in the JSON-LD block) plus `<loc>` in `sitemap.xml`
+and the `Sitemap:` line in `robots.txt`. Those are the only places the
+hostname is hard-coded — everything else is relative.
 
 ## Editing
 
