@@ -123,7 +123,3 @@ still on screen.
 `prefers-reduced-motion`, `prefers-reduced-transparency` and
 `prefers-contrast: more` all have real fallback paths; reduced motion drops
 the scrub entirely rather than degrading it.
-
-## Still to fill in
-
-- Furusato paper link, once it's public
