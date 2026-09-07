@@ -16,15 +16,13 @@ assets/             portrait + CV PDF
 python3 -m http.server 4321 --directory personal-site
 ```
 
-## Analytics — activate before you deploy
+## Analytics
 
 The site ships with **GoatCounter**: free, no cookies, so no consent banner.
 It reports page views, **referrers** (where visitors came from), countries,
 browsers and screen sizes.
 
-1. Sign up at <https://www.goatcounter.com> and pick a code (e.g. `shubhamdey`)
-2. In `index.html`, replace `MYCODE` in the last `<script>` tag with that code
-3. Dashboard: `https://<code>.goatcounter.com`
+Active. Dashboard: <https://shubhamdey.goatcounter.com>
 
 Prefer Google Analytics? Delete that block and paste a GA4 snippet in its
 place — nothing else depends on it.
@@ -125,5 +123,4 @@ the scrub entirely rather than degrading it.
 
 ## Still to fill in
 
-- `MYCODE` → your GoatCounter code
 - Furusato paper link, once it's public
